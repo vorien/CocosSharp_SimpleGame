@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>19436ad2-dd61-4929-b43b-50c605934bbf</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>SimpleGame</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\Bouncer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Factories\BouncerFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GameDelegate.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GameLayer.cs" />
+  </ItemGroup>
+</Project>
